@@ -1,6 +1,8 @@
+This is a small modification of the original work done by [https://www.hpc.iastate.edu/guides/containers/mysql-server](https://www.hpc.iastate.edu/guides/containers/mysql-server) to update the  default password and force mysql to only listen in our cluster network
+
 # mysql
 
-[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/937)
+[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/3663)
 
 Please see https://www.hpc.iastate.edu/guides/containers/mysql-server for usage instructions.
 
