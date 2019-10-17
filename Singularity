@@ -67,4 +67,6 @@ Documentation: https://www.hpc.iastate.edu/guides/containers/mysql-server
     # Finally, launch mysqld
     echo ""
     echo "Start mysqld"
-    mysqld  --init-file=${HOME}/.mysqlrootpw &
+    # in the sciCORE cluster $HOSNTNAME points to the internal cluster network
+    # so by default mysql is only listening in the internal cluster network
+    mysqld  --init-file=${HOME}/.mysqlrootpw --bind-address=${HOSTNAME} &
